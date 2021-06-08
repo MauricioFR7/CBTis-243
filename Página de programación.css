@@ -1,0 +1,221 @@
+*{
+  background-color: black ;
+  font-family: Helvetica Neue;
+  padding: 7px;
+
+}
+
+h1#header{
+  text-align: center;
+  margin-top: 15px;
+  font-size: 2.5em;
+  color: white;
+}
+
+.zoom{
+
+ transition width: 1s; height: 1s; transform: 1s;
+
+ -moz-transition width: 1s; height: 1s; -moz-transform: 1s;
+
+ -webkit-transition width: 1s; height: 1s; -webkit-transition: 1s;
+
+ -o-transition width: 1s; height: 1s; -o-transition: 1s;
+}
+
+.zoom:hover{
+
+ transform: scale(1.1);
+
+ -moz-transform: scale(1.1);
+
+ -webkit-transition: scale(1.1);
+
+ -o-transition: scale(1.1);
+}
+
+p#subheader{ #4C187D;
+ text-align: center;
+ margin-top: 20px;
+ font-size: 2.3em;
+ color: white;
+}
+
+#ocultar{
+  text-align: right;
+  margin-top: -32px;
+  margin-right: 40px;
+  font-size: 1.2em;
+  color: white;
+  background-color: transparent;
+}
+
+#mostrar{
+  text-align: right;
+  margin-top: -60px;
+  margin-right: 300px;
+  font-size: 1.2em;
+  color: white;
+  background-color: transparent;
+}
+
+img#imgen1{
+ position:absolute; top: 130px;
+ position:absolute; bottom: 20px;
+ position:absolute; left: 30px;
+ position:absolute; right: 20px;
+}
+
+img#imgen{
+ position:absolute; top: 130px;
+ position:absolute; bottom: 20px;
+ position:absolute; left: 1500px;
+ position:absolute; right: 20px;
+}
+
+#menu{
+   background-color: #491804 ;
+   margin-left: 400px;
+   font-size: 1.2em;
+}
+
+#menu ul{
+  background-color: #491804 ;
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+
+#menu ul li{
+ background-color: #491804 ;
+ display: inline-block;
+}
+
+#menu ul li a{
+ background-color: #491804 ;
+ color: white;
+ display: block;
+ padding: 5px;
+ text-decoration: none;
+}
+
+#menu ul li a:hover{
+ background-color: #A67100;
+}
+.lista{
+  margin-left: 80px;
+}
+
+#tabla1{
+  background-color: #491804  ;
+  margin-top: -60px;
+  width: 405px;
+  height: 1250px;
+}
+
+a{
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+p#texto1{
+  background-color: #491804  ;
+  font-size: 1.2em;
+  color: white;
+  text-align: justify;
+  text-decoration: none;
+}
+
+#tabla2{
+  background-color: #03A088;
+  margin-left: 420px;
+  margin-top: -1210px;
+  width: 1425px;
+  float: center;
+}
+
+#text2{
+  background-color: transparent;
+  font-size: 1.8em;
+  text-align: center;
+  color: white;
+
+}
+
+#text3{
+  background-color: transparent;
+  margin-left: 50px;
+  text-align: justify;
+  font-size: 1.2em;
+  color: white;
+  width: 600px;
+
+}
+
+#video2{
+ background-color: #03A088;
+ margin-left: 50px;
+ margin-top: 10px;
+ text-align: justify;
+  font-size: 1.2em;
+  color: white;
+  width: 600px;
+}
+
+#tabla3{
+  background-color: #03A088;
+  float: center;
+    margin-left: 420px;
+}
+
+#foto{
+  width: 700px;
+  height: 450px;
+   position:absolute; top: 500px;
+ position:absolute; bottom: 20px;
+ position:absolute; left: 1130px;
+ position:absolute; right: 20px;
+  background-color: transparent;
+}
+
+p#fin{
+  background-color: transparent;
+  text-align: center;
+  color: white;
+  margin-top: -5px;
+}
+
+p#fin2{
+
+  text-align: center;
+  color: #1FBCBA;
+  margin-top: -37px;
+  margin-bottom: -40px;
+  background-color: transparent;
+}
+
+#video{
+  background-color: #03A088;
+  text-align: right;
+  margin-right: 30px;
+}
+
+#video3{
+  background-color: transparent;
+}
+
+#descarga{
+  width: 300px;
+  height: 100px;
+  position:absolute; top: 1460px;
+  position:absolute; bottom: 20px;
+ position:absolute; left: 600px;
+ position:absolute; right: 20px;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#gps{
+  background-color: transparent;
+}

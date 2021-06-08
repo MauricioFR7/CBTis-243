@@ -1,0 +1,179 @@
+*{
+  font-family: Helvetica Neue;
+  padding: 7px;
+
+}
+
+h1#header{
+  text-align: center;
+  margin-top: 15px;
+  font-size: 2.5em;
+  color: white;
+}
+
+.zoom{
+
+ transition width: 1s; height: 1s; transform: 1s;
+
+ -moz-transition width: 1s; height: 1s; -moz-transform: 1s;
+
+ -webkit-transition width: 1s; height: 1s; -webkit-transition: 1s;
+
+ -o-transition width: 1s; height: 1s; -o-transition: 1s;
+}
+
+.zoom:hover{
+
+ transform: scale(1.1);
+
+ -moz-transform: scale(1.1);
+
+ -webkit-transition: scale(1.1);
+
+ -o-transition: scale(1.1);
+}
+
+p#subheader{
+ text-align: center;
+ margin-top: 20px;
+ font-size: 2.3em;
+ color: white;
+}
+
+img#imgen1{
+  background-color: transparent;
+ position:absolute; top: 130px;
+ position:absolute; bottom: 20px;
+ position:absolute; left: 30px;
+ position:absolute; right: 20px;
+}
+
+img#imgen{
+  background-color: transparent;
+ position:absolute; top: 130px;
+ position:absolute; bottom: 20px;
+ position:absolute; left: 1500px;
+ position:absolute; right: 20px;
+}
+
+#menu{
+   background-color: #491804 ;
+   font-size: 1.2em;
+}
+
+#menu ul{
+  background-color: #491804 ;
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+
+#menu ul li{
+ background-color: #491804 ;
+ display: inline-block;
+}
+
+#menu ul li a{
+ background-color: #491804 ;
+ color: white;
+ display: block;
+ padding: 5px;
+ text-decoration: none;
+}
+
+#menu ul li a:hover{
+ background-color: #A67100;
+}
+
+.lista{
+  margin-left: 160px;
+}
+
+#tabla2{
+  background-color: transparent;
+  margin-top: 400px;
+  margin-left: 200px;
+  width: 1427px;
+  float: center;
+}
+
+#text2{
+  background-color: transparent;
+  font-size: 1.8em;
+  text-align: center;
+  color: white;
+
+}
+
+#text3{
+  background-color: transparent;
+  margin-left: 400px;
+  text-align: justify;
+  font-size: 1.2em;
+  color: white;
+  width: 600px;
+}
+
+#text4{
+  background-color: transparent;
+  margin-left: 400px;
+  text-align: justify;
+  font-size: 1.2em;
+  color: white;
+  width: 600px;
+}
+
+#text5{
+  background-color: transparent;
+  margin-left: 400px;
+  text-align: justify;
+  font-size: 1.2em;
+  color: white;
+  width: 600px;
+}
+
+#tabla3{
+  background-color: transparent;
+  width: 1427px;
+  margin-left: 210px;
+}
+
+#texto4{
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+img#imagen7{
+ background-color: transparent;
+ position:absolute; top: 500px;
+ position:absolute; bottom: 20px;
+ position:absolute; left: 480px;
+ position:absolute; right: 20px;
+
+}
+
+#video{
+  background-color: transparent;
+  text-align: right;
+  margin-right: 430px;
+}
+
+p#fin{
+  background-color: transparent;
+  margin-left: -230px;
+  text-align: center;
+  color: white;
+}
+
+#tabla5{
+  background-color: transparent;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+a#fin2{
+  text-decoration: none;
+  color: white;
+  margin-left: 540px;
+}
